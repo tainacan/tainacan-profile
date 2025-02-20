@@ -1,0 +1,4 @@
+tainacan-profile/node_modules
+tainacan-profile/*/node_modules
+tainacan-profile/build
+.vscode
