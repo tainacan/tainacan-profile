@@ -9,6 +9,10 @@ class Profile extends \Tainacan\Pages {
 		parent::init();
 	}
 
+	protected function get_page_slug() : string {
+		return 'tainacan_profile';
+	}
+
 	public function add_admin_menu() {
 		$profile_page_suffix = add_submenu_page(
 			$this->tainacan_root_menu_slug,
